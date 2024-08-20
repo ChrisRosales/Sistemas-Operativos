@@ -1,0 +1,6 @@
+# Este es el recurso 1
+RECURSO "CamionLargo" 
+
+TAREA "Format"  INICIO = 0
+ [ CPU , 1] [ 1 , 20 ] [ CPU , 1]
+
