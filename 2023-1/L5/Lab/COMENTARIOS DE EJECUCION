@@ -1,0 +1,9 @@
+/**** PARA EJECUTAR LA PREGUNTA 1 ****/
+alulab@V20716:~/Escritorio/lab01$ gcc dRaizFAT32.c -o dRaizFAT32
+alulab@V20716:~/Escritorio/lab01$ ./dRaizFAT32 partFAT32.img
+
+/**** PARA EJECUTAR LA PREGUNTA 2 ****/
+alulab@V20716:~/Escritorio/lab01$ gcc nClustersF.c -o nClustersF
+alulab@V20716:~/Escritorio/lab01$ ./nClustersF disqueteFAT12.img 10
+
+
