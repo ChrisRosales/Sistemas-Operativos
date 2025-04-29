@@ -1,0 +1,7 @@
+RECURSO "I/O processes"
+
+TAREA "One compute-bound process" INICIO= 0 
+	[CPU,1] [1,25] [CPU,1]
+
+
+    

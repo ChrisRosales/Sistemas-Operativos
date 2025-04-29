@@ -1,0 +1,14 @@
+RECURSO "Disco duro"
+RECURSO "Teclado"
+RECURSO "Cinta"
+
+TAREA "Tarea1" INICIO= 0
+	[CPU,3] [1,1] [CPU,5] [2,3] [CPU,2] [3,3] [CPU,3]
+TAREA "Tarea2" INICIO= 2
+	[CPU,1] [2,3] [CPU,3] [3,2] [CPU,4] [1,2] [CPU,1]
+TAREA "Tarea3" INICIO= 5
+	[CPU,4] [1,1] [CPU,4] [2,3] [CPU,3] [3,2] [CPU,3]
+TAREA "Tarea4" INICIO= 7
+	[CPU,2] [3,3] [CPU,2] [2,1] [CPU,4] [1,2] [CPU,5]
+TAREA "Tarea5" INICIO= 8
+	[CPU,5] [1,2] [CPU,2] [2,3] [CPU,3] [3,2] [CPU,5]
