@@ -1,0 +1,14 @@
+En base a lo visto llegamos a la siguientes conclusiones:
+
+Podemos observar que para lo que se muestra en la salida1 y salida2
+se muestra todas las entradas válidas de la FAT. Y para la salida2
+se observa que imprimos su contenido como caracteres en hexadecimales.
+Ahora bien en contraste con la salida 3 y salida4 respectivamente para ambos programas,
+hay una diferencia, esta se debe principalemnte a la fragmentación, ya que
+para cuando se cuenta con archivos fragmentados tratará de asignarle clusters libres
+consecutivamente mientras se pueda. Es de suponerse que si hay otro archivo a continuación 
+y el primero quiere crecer. 
+Además, el sistema de archivos exFAT permite gestionar archivos fragmentados y no fragmentados, 
+evidenciando cómo se asignan clusters consecutivos o dispersos según la disponibilidad.
+Por último, la salida de los programas confirma el uso correcto de la FAT y el mapa de bits 
+para reflejar las asignaciones y el estado de los clusters ocupados.
