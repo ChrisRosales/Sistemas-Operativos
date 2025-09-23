@@ -1,0 +1,29 @@
+Después de analizar la salida del programa abt y nentry 10, ¿existe alguna incongruencia entre
+ambas salidas? Explique su respuesta
+
+Para la salida de nentry 10 obtuve los siguientes datos:
+FAT[0] = 0xfffffff8
+FAT[1] = 0xffffffff
+FAT[2] = 0x00000003
+FAT[3] = 0x00000004
+FAT[4] = 0x00000005
+FAT[5] = 0x00000006
+FAT[6] = 0x00000007
+FAT[7] = 0x00000008
+FAT[8] = 0xffffffff
+FAT[9] = 0x0000000a
+
+mientras que para el bitmap obtuve lo siguiente:
+ff 7 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 80 ff ff 
+ff ff ff ff 
+ff c7 ff ff 
+
+por cada entrada tenemos 4 bytes y cada número hexadecimal en el bitmap representa un byte con la información bit a bit de si el clúster está libre o no, notamos en las salidas que hay incroguencias ya que en el bitmap el primer ff representa que mis primeros 8 cluster estan ocupados, es decir las entradas del 0 al 7 estan llenas.
+
+
+

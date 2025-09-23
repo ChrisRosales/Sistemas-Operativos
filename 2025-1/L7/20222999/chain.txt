@@ -1,0 +1,37 @@
+pregunta 5: De la lista de archivos elija el de mayor tamaño y escriba la cadena de clusters de dicho archivo.
+en base a mis respuestas del inciso 4:
+Nombre: exFATstruct.h
+Tamaño: 504 bytes
+Primer cluster: 12
+
+Nombre: Reverse Enginee
+Tamaño: 1698946 bytes
+Primer cluster: 240
+
+Nombre: leeBootExFat.c
+Tamaño: 1437 bytes
+Primer cluster: 655
+
+Nombre: Material para e
+Tamaño: 230084 bytes
+Primer cluster: 177
+
+Nombre: .Trash-1000
+Tamaño: 4096 bytes
+Primer cluster: 234
+
+Nombre: Editors,_compil
+Tamaño: 471672 bytes
+Primer cluster: 656
+
+Nombre: Why Pascal is N
+Tamaño: 74048 bytes
+Primer cluster: 772
+
+Nombre: The Development
+Tamaño: 209799 bytes
+Primer cluster: 791
+
+
+El archivo con mayor tamaño es el de nombre "Reverse Engineering tha Microsoft Extended FAT File System (exFAT).pdf" cuyo primer cluster es el 240, cuya cadena de clusters va de 240 a 
+

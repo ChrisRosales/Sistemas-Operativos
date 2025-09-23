@@ -1,0 +1,29 @@
+#PREGUNTA2
+RECURSO "IO"
+
+TAREA "A" INICIO=0
+[CPU, 10]
+[1, 1]
+[CPU, 10]
+[1, 1]
+[CPU, 10]
+[1, 1]
+[CPU, 10]
+
+TAREA "IO_BOUND1" INICIO=0
+[CPU, 1]
+[1, 1]
+[CPU, 1]
+[1, 1]
+[CPU, 1]
+[1, 1]
+[CPU, 1]
+
+TAREA "IO_BOUND2" INICIO=0
+[CPU, 1]
+[1, 1]
+[CPU, 1]
+[1, 1]
+[CPU, 1]
+[1, 1]
+[CPU, 1]
